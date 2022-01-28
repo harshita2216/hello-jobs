@@ -1,5 +1,6 @@
 # Hello Jobs
 **Hello Jobs** is a one-stop solution for all job seekers. In future, this could also serve as a platform for recruiters to hire potential candidates. 
+<br>
 <img src = "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2000a352812969.59eedeac2642a.gif" width = "500" height = "300">
 ### Tech Stack
 
