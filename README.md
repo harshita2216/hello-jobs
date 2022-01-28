@@ -44,7 +44,7 @@ Download <a href="https://git-scm.com/downloads">Git</a>
 Step 3: Fork the Repository
 </summary>
 <br>
-Click on <a href="#" target="_self"><img src="https://user-images.githubusercontent.com/63921263/110382285-b07bba80-8080-11eb-8407-d354849c1753.png" width="16"></img></a> to fork <a href="https://github.com/chiraag-kakar/sharenlearn">this</a> repsository
+Click on <a href="#" target="_self"><img src="https://user-images.githubusercontent.com/63921263/110382285-b07bba80-8080-11eb-8407-d354849c1753.png" width="16"></img></a> to fork <a href="https://github.com/harshita2216/hello-jobs">this</a> repsository
 </details>
 
 ---
