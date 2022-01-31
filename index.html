@@ -1,29 +1,151 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Jobs!</title>
-	<link rel="stylesheet" href="styles.css">
-	<link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
-</head>
-<body>
-    <header class="header-fixed">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-        <div class="header-limiter">
-    
-            <h1><a href="#">Hello <span>Jobs</span></a></h1>
-    
-            <nav>
-                <a href="#">Home</a>
-                <a href="#" class="selected">Blog</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
-    
-        </div>
-    
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header class="header-fixed">
+      <div class="header-limiter">
+        <h1>
+          <a href="#">Hello <span>Jobs</span></a>
+        </h1>
+
+        <nav>
+          <a href="#">Home</a>
+          <a href="#" class="selected">Blog</a>
+          <a href="#About">About</a>
+          <a href="#Contact">Contact</a>
+        </nav>
+      </div>
     </header>
-    
-</body>
+
+    <div class="container m-2" id="Blog">
+      <h1>Here we have the Blog Section</h1>
+    </div>
+    <div class="container m-2" id="About">
+      <h1>The About Section</h1>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-6">
+          <p>
+            <img
+              src="images/undraw-contact.svg"
+              alt="Image"
+              class="img-fluid mt-3 pt-3"
+            />
+          </p>
+        </div>
+
+        <div class="col-md-6 col-sm-6" id="Contact">
+          <br />
+          <h2 style="text-align: center">Contact Form</h2>
+          <hr />
+
+          <form id="contact-form" action="" role="form">
+            <div class="controls">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      id="form_name"
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Enter your name"
+                      required="required"
+                    />
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      id="form_phone"
+                      type="tel"
+                      name="phone"
+                      class="form-control"
+                      placeholder="Phone No. (Optional)"
+                    />
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input
+                      id="form_email"
+                      type="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Enter your email"
+                      required="required"
+                    />
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input
+                      id="form_subject"
+                      type="text"
+                      name="subject"
+                      class="form-control"
+                      placeholder="Subject "
+                      required="required"
+                    />
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea
+                      id="form_message"
+                      name="message"
+                      class="form-control"
+                      placeholder="Type your message here"
+                      rows="4"
+                      required
+                    ></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <input
+                    type="submit"
+                    class="btn btn-success btn-send"
+                    value="Send message"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br />
+    </div>
+  </body>
 </html>
