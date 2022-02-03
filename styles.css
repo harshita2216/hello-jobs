@@ -467,3 +467,46 @@ body {
     transform: all 0.1s;
   }
 }
+footer{
+  
+  background-color: lavender;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  text-align:center;
+ position: fixed;
+width: 100%;
+left: 0px;
+bottom: 0px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lavender;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lavenderblush;
+  
+  transition:ease-in-out 0.2s;
+}
+@media(max-width:1000px){
+  footer{
+    background-size: cover;
+  }
+}
