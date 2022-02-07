@@ -493,6 +493,7 @@ html {
 
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 
 }
 
@@ -507,7 +508,7 @@ footer{
 footer .content{
   max-width: 1350px;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -520,14 +521,16 @@ footer .content .box{
   transition: all 0.4s ease;
 }
 footer .content .topic{
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight:900;
+  font-family: 'Rowdies', cursive;
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   
 }
 footer .content p{
   text-align: justify;
+  font-family: 'Yellowtail', cursive;
   
 }
 footer .content .lower .topic{
@@ -568,7 +571,7 @@ footer .content .right input[type="submit"]{
   transition: all 0.3s ease-in-out;
 }
 .content .right input[type="submit"]:hover{
-  background: rgb(7, 80, 148) ;
+  background: rgb(4, 19, 231) ;
   color:  #080708;
 }
 footer .content .media-icons a{
@@ -588,10 +591,11 @@ footer .content .media-icons a{
 }
 footer .bottom{
 	width: 100%;
-	background: #2b2828;
+	background: #1c1a83;
 	padding: 1px 100px;
 	text-align: center;
-	color: #999;
+  font-family: 'Rowdies', cursive;
+	color: rgb(255, 255, 255);
 }
 footer .bottom a{
   color: #d4cece;
@@ -600,8 +604,12 @@ footer .bottom a{
 footer a{
   transition: all 0.3s ease;
 }
+footer .bottom .last{
+  font-family: 'Rowdies', cursive;
+}
+
 footer a:hover{
-  color: #608bd2;
+  color: #5383d3;
 }
 @media (max-width:1100px) {
   footer .content .middle{
