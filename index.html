@@ -2,12 +2,25 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5">
     <title>Hello Jobs!</title>
 	<link rel="stylesheet" href="styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--CSS Spinner-->
+    <div class="prel-backg">
+	<div class="prel-po">
+           
+        </div>
+</div>
+
     <header class="header-fixed">
 
         <div class="header-limiter">
@@ -24,6 +37,47 @@
         </div>
     
     </header>
+    
+
+    <div class="banner-outer">
+        
+        <div class="lft-banner">
+            <div class="later-img"><img src="./resources/limg.png" alt="job" class="limg"></div>
+            <div class="left-back"><img src="./resources/Ellipse 1.png" class="left-back-img"></div>
+            <div class="banner-tag"><h3 class="banner-tag-h">Get Your<br>Dream Job</h3></div>
+            <div class="banner-msg"><p class="banner-msg-p">Explore some really exciting jobs for yourself</p></div>
+            <div class="search-box">
+                <form action="Post">
+                    <input type="text" id="search-box" placeholder="Enter Job Type">
+                    <input type="button" id="search" value="Search">
+                </form>
+            </div>
+            <div class="job-in-demand-outer">
+                <div class="job-top">
+                <h4 class="job-in-demand-h">Jobs in Demand</h4>
+                <a href="#" class="more-jobs">more <img class="more-arr" src="./resources/arrow-right-solid.svg" alt="more"></a> 
+            </div>
+                <div class="job-in-demand">
+                <span class="job-box"><a href="#"> <img src="./resources/sftd.png" alt="Software Developer" class="icon1 icon"> <p class="job job1"> Software Developer</p></a></span>
+                <span class="job-box"><a href="#"> <img src="./resources/cw.png" alt="Content Writer" class="icon2 icon"><p class="job">  Content Writer</p></a></span>
+                <span class="job-box"><a href="#"> <img src="./resources/ds.png" alt="Data scientist" class="icon3 icon"> <p class="job"> Data Scientist</p></a></span>
+            </div>
+        </div>
+    </div>
+    <div class="rgt-banner">
+        <div class="rgt-img"><img src="./resources/limg.png" alt="img" class="rgt-ig"></div>
+    </div>
+    </div>
+    
+
+<script src = "jquery.min.js"></script>
+<script>
+  setTimeout(function(){
+    $('.prel-backg').fadeToggle();
+  },3000);
+</script>
+
+
     
 </body>
 </html>
