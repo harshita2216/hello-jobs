@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5">
     <title>Hello Jobs!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,6 +32,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--CSS Spinner-->
+    <div class="prel-backg">
+	<div class="prel-po">
+           
+        </div>
+</div>
+
     <header class="header-fixed">
 
         <div class="header-limiter">
@@ -79,45 +86,16 @@
         <div class="rgt-img"><img src="./resources/limg.png" alt="img" class="rgt-ig"></div>
     </div>
     </div>
-
-    <footer>
-        <div class="content">
-          <div class="left box">
-            <div class="upper">
-              <div class="topic"><a href="#">About us</a></div>
-              <p>Hello Jobs lets people dive deep into their intended or current career path. Wherever you are in your career journey, Hello Jobs aims to guide you toward your next step. So don't wait and say Hello to new Jobs.</p>
-            </div>
-           
-          </div>
-          <div class="middle box">
-            <div class="topic">
-                <a href="#">Contact Us</a></div>
-            <div><a href="#">Home</a></div>
-            <div><a href="#">Blog</a></div>
-            <div><a href="#">About</a></div>
-            <div><a href="#">Privacy Policy</a></div>
-          </div>
-          <div class="right box">
-            <div class="topic">Let's Connect</div>
-            <form action="#">
-              <input type="text" placeholder="Enter email address">
-              <input type="submit" name="" value="Send">
-              <div class="media-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram-square"></i></a>
-                <a href="#"><i class="fab fa-twitter-square"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="bottom">
-          <p><span class="last">Copyright © 2022 <a href="#">Hello Jobs</a></span> All rights reserved</p>
-        </div>
-      </footer>
     
 
+<script src = "jquery.min.js"></script>
+<script>
+  setTimeout(function(){
+    $('.prel-backg').fadeToggle();
+  },3000);
+</script>
 
+
+    
 </body>
 </html>
