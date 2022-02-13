@@ -1,5 +1,5 @@
 .header-fixed {
-  background-color: #292c2f;
+  background-color:rgba(185, 173, 252, 0.5);
   box-shadow: 0 1px 1px #ccc;
   padding: 20px 40px;
   height: 80px;
@@ -11,6 +11,61 @@
   transition: top 0.3s;
 }
 
+  
+a+a {
+  margin-left: 10px;
+}
+#explore_icon + button{
+  margin-left: 10px;
+}
+#login{
+  font-size:18px;
+  background-color: #5383d3;
+  color:azure;
+  border-radius: 15px;
+  padding:0.3vw 0.5vw 0.3vw 0.5vw;
+}
+/*---hover effects----*/ 
+#login:hover{
+  background-color:blueviolet;
+  transition: 0.4s ease-in-out;
+ cursor: pointer;
+}
+
+.header-fixed .header-limiter #header_content:hover{
+  color: black;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  
+  border-radius: 10px;
+  padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+}
+#home:hover{
+  text-decoration:underline plum 4px;
+  font-weight: bolder;
+  transition: 0.4s ease-in-out;
+}
+#blog:hover{
+  text-decoration:underline plum 4px;
+  font-weight: bolder;
+  transition: 0.4s ease-in-out;
+}
+#about:hover{
+  text-decoration:underline plum 4px;
+  font-weight: bolder;
+  transition: 0.4s ease-in-out;
+}
+#contact:hover{
+  text-decoration:underline plum 4px;
+  font-weight: bolder;
+  transition: 0.4s ease-in-out;
+}
+#explore_icon:hover{
+  text-decoration:underline plum 4px;
+  font-weight: bolder;
+  transition: 0.4s ease-in-out;
+}
+/*---hover effects end---*/
 .header-fixed .header-limiter {
   max-width: 1200px;
   text-align: center;
@@ -87,11 +142,25 @@ body.fixed .header-fixed .header-limiter nav {
   line-height: 28px;
   font-size: 13px;
 }
+@media screen and(max-device-width:800px){
+  .header-fixed{
+    width:116%;
+  }
+  .header-fixed .header-limiter nav a {
+    display: inline-block;
+    padding: 0 5px;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.9;
+    font-size: 20px;
+  }
+}
+
 
 @media all and (max-width: 700px) {
   .header-fixed {
     padding: 20px 0;
-    height: 75px;
+  height: 7rem;
   }
 
   .header-fixed .header-limiter h1 {
